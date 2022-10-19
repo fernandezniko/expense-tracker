@@ -5,7 +5,6 @@ import './ExpenseFilter.css';
 const ExpensesFilter = ({onYearChange, selectedYear}) => {
 
     const dropdownChangeHandler = (event) => {
-        console.log('event', event.target.value);
         onYearChange(event.target.value)
     }
 
